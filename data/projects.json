@@ -1,0 +1,36 @@
+[
+  {
+    "id": "ban62",
+    "name": "Ban62",
+    "role": "Tech Lead, Frontend, DevOps",
+    "status": "in-progress",
+    "tags": ["Nuxt", "TypeScript", "Tailwind", "Pinia", ".NET", "EF Core", "PostgreSQL (Neon)", "SignalR", "Vercel", "Render"],
+    "summary": "Multi-restaurant ordering, queue, and payment system replacing physical queue tickets in a real family food business.",
+    "detail": {
+      "problem": "Replace physical queue tickets with a digital ordering and queue experience for a real family food business.",
+      "architecture": "Nuxt and TypeScript on the client; .NET, EF Core, and PostgreSQL on the server side, with SignalR in the stack for live queue updates.",
+      "highlights": ["Tech Lead, Frontend, and DevOps responsibilities", "Ordering, queue, and payment in one product", "Used in a real family food business"]
+    },
+    "featured": true,
+    "order": 1
+  },
+  {
+    "id": "suvlet-portfolio",
+    "name": "Suvlet Portfolio",
+    "role": "Fullstack & DevOps",
+    "status": "done",
+    "tags": ["Nuxt", "TypeScript", "Tailwind", "Pinia", "WaveSurfer.js", ".NET", "FastEndpoints", "EF Core", "PostgreSQL (Neon)", "Cloudflare R2", "Cloudflare Pages", "Render"],
+    "summary": "A personal portfolio and CMS for the Suvlet lofi/jazzhop music project, with zero-code content management.",
+    "detail": {
+      "problem": "Give a lofi/jazzhop music project a home for its portfolio and content that can be managed without changing code.",
+      "architecture": "Nuxt and TypeScript frontend with a .NET FastEndpoints backend, PostgreSQL, and Cloudflare R2 for media; WaveSurfer.js supports the music experience.",
+      "highlights": ["Fullstack and DevOps responsibilities", "Zero-code content management", "Built around a music-focused listening experience"]
+    },
+    "featured": true,
+    "order": 2
+  },
+  { "id": "naenow", "name": "NaeNow", "role": "Internship project", "status": "done", "tags": [], "summary": "Some project details are confidential.", "detail": null, "featured": true, "isNdaRestricted": true, "order": 3 },
+  { "id": "bni-miracle", "name": "BNI Miracle", "role": "Internship project", "status": "done", "tags": [], "summary": "Some project details are confidential.", "detail": null, "featured": true, "isNdaRestricted": true, "order": 4 },
+  { "id": "fandom-engine", "name": "FandomEngine", "role": "Internship project", "status": "done", "tags": [], "summary": "Some project details are confidential.", "detail": null, "featured": true, "isNdaRestricted": true, "order": 5 },
+  { "id": "sso-chatbot", "name": "SSO Chatbot", "role": "Bonus project", "status": "done", "tags": [], "summary": "A bonus project mention.", "detail": null, "featured": true, "isNdaRestricted": false, "order": 6 }
+]

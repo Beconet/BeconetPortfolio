@@ -1,0 +1,10 @@
+[
+  { "id": "languages", "label": "Languages & Core", "items": ["HTML/HTML5", "CSS/CSS3", "JavaScript", "TypeScript", "Python", "C", "C++", "Java", ".NET / C#"] },
+  { "id": "frontend", "label": "Frontend", "items": ["React", "Next.js", "Vue.js", "Nuxt.js", "WaveSurfer.js", "Tailwind CSS", "Bootstrap", "Bulma", "Pinia", "Axios", "@nuxtjs/seo", "@nuxt/image"] },
+  { "id": "backend", "label": "Backend", "items": ["Node.js", "Express", "FastEndpoints", "FastEndpoints.Security", "JWT", "FluentValidation", "EF Core", "Npgsql"] },
+  { "id": "data", "label": "Data Science / AI / ML", "items": ["NumPy", "Pandas", "Scikit-learn", "PyTorch", "TensorFlow"] },
+  { "id": "database", "label": "Database & Storage", "items": ["PostgreSQL", "MySQL", "SQLite", "MongoDB", "Neon", "Cloudflare R2"] },
+  { "id": "devops", "label": "DevOps & Infrastructure", "items": ["Git", "Vercel", "Render", "UptimeRobot", "Firebase", "Google Cloud", "Docker"] },
+  { "id": "tools", "label": "Development & Other Tools", "items": ["VS Code", "Visual Studio 2026", "Rider", "DBeaver", "Swagger", "Postman", "Figma", "Figma Make", "Google Stitch", "Canva", "Notion", "Mermaid", "Slack", "LINE/LIFF", "LINE Flex Message Simulator", "Android"] },
+  { "id": "ai", "label": "AI", "items": ["Copilot", "ChatGPT", "Gemini", "Claude Code"] }
+]
