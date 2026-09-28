@@ -245,7 +245,7 @@ onBeforeUnmount(() => {
         <div class="section-kicker" data-reveal><span>01</span><span>ABOUT</span></div>
         <div class="about-grid">
           <div class="about-heading" data-reveal>
-            <h2 id="about-title" class="section-heading">Hi! I'm<br><em>Supacheep Poonsawat</em></h2>
+            <h2 id="about-title" class="section-heading">Hi! I'm<br><em>Supacheep Poonsawat.</em></h2>
             <img class="about-portrait" :src="publicAsset('profile/me.png')" alt="Portrait of Supacheep Poonsawat" loading="lazy">
           </div>
           <div class="about-body" data-reveal>
