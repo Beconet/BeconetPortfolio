@@ -75,7 +75,7 @@
       "architecture": "Project setup: established folder structure, file and module naming conventions, and baseline routing and component separation. Mockups: built UI mockups to align with the mentor on user flows and key interactions before implementation. Core UI: developed Register, Home, Artist, Campaign, Event, and Profile pages, with Group and Solo artist formats built from reusable components. Staging: deployed the project for pre-production testing of core flows before requesting review. Bug fixing: investigated issues using logs, observed behavior, requirements, and mentor feedback, then applied targeted fixes and re-tested.",
       "challenge": "Designing a component and routing structure upfront that could support Group and Solo artist views, Campaign, Event, and Profile pages without structural rework, while balancing mockup-driven UI validation with delivering working pages within Phase 1's timeline.",
       "highlights": ["Worked largely independently under internship mentor direction", "Established the initial project structure and mockups", "Built Register, Home, Artist, Campaign, Event, and Profile pages", "Supported Group and Solo artist layouts with reusable components", "Deployed to staging and verified fixes against requirements"],
-      "gallery": ["work/fandomengine/fandomengine.png"]
+      "gallery": ["work/fandomengine/fandomengine-new.png"]
     },
     "featured": true,
     "isNdaRestricted": false,
