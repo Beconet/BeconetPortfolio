@@ -1,1 +1,55 @@
-[]
+[
+    {
+        "name": "OIC InsurTech Award 2024",
+        "description": "100 Finalist Teams",
+        "date": "Sep 24, 2024",
+        "image": "OIC Insurtech award 2024.png"
+    },
+    {
+        "name": "Financial Well-being Hackathon for Thais",
+        "description": "Participation",
+        "date": "Oct 5, 2024",
+        "image": "Financial Well being Hackathon.png"
+    },
+    {
+        "name": "Basic Cybersecurity",
+        "description": "MOOC NCSA Thailand",
+        "date": "Nov 17, 2024",
+        "image": "Basic Cybersecurity.png"
+    },
+    {
+        "name": "Classify Images with TensorFlow on Google Cloud",
+        "description": "Google Cloud",
+        "date": "May 28, 2024",
+        "image": "Classify Images with TensorFlow.png",
+        "link": "https://www.credly.com/badges/45a19b60-8c98-4056-a9de-636fb3977c51"
+    },
+    {
+        "name": "Create and Manage AlloyDB Instances Skill Badge",
+        "description": "Google Cloud",
+        "date": "May 25, 2024",
+        "image": "Create and Manage AlloyDB Instances.png",
+        "link": "https://www.credly.com/badges/187d1f90-fa3a-403a-b593-7124a9d2f8a1"
+    },
+    {
+        "name": "Create and Manage Cloud SQL for PostgreSQL Instances Skill Badge",
+        "description": "Google Cloud",
+        "date": "June 01, 2024",
+        "image": "Create and Manage Cloud SQL for PostgreSQL.png",
+        "link": "https://www.credly.com/badges/77470ce6-4c27-44d0-ab18-1752eb396084"
+    },
+    {
+        "name": "Customer Service with Python: Build a Chatbot using ChatGPT",
+        "description": "Coursera",
+        "date": "Apr 4, 2025",
+        "image": "Build a Chatbot using ChatGPT.png",
+        "link": "https://www.coursera.org/account/accomplishments/verify/HMBBY8XFLMNW"
+    },
+    {
+        "name": "Cloud Foundations",
+        "description": "AWS Academy",
+        "date": "Nov 25, 2025",
+        "image": "Cloud Foundations.png",
+        "link": "https://www.credly.com/badges/5a698bbe-c6ad-432a-ac6c-cd38a8ae198d"
+    }
+]

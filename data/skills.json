@@ -1,10 +1,117 @@
 [
-  { "id": "languages", "label": "Languages & Core", "items": ["HTML/HTML5", "CSS/CSS3", "JavaScript", "TypeScript", "Python", "C", "C++", "Java", ".NET / C#"] },
-  { "id": "frontend", "label": "Frontend", "items": ["React", "Next.js", "Vue.js", "Nuxt.js", "WaveSurfer.js", "Tailwind CSS", "Bootstrap", "Bulma", "Pinia", "Axios", "@nuxtjs/seo", "@nuxt/image"] },
-  { "id": "backend", "label": "Backend", "items": ["Node.js", "Express", "FastEndpoints", "FastEndpoints.Security", "JWT", "FluentValidation", "EF Core", "Npgsql"] },
-  { "id": "data", "label": "Data Science / AI / ML", "items": ["NumPy", "Pandas", "Scikit-learn", "PyTorch", "TensorFlow"] },
-  { "id": "database", "label": "Database & Storage", "items": ["PostgreSQL", "MySQL", "SQLite", "MongoDB", "Neon", "Cloudflare R2"] },
-  { "id": "devops", "label": "DevOps & Infrastructure", "items": ["Git", "Vercel", "Render", "UptimeRobot", "Firebase", "Google Cloud", "Docker"] },
-  { "id": "tools", "label": "Development & Other Tools", "items": ["VS Code", "Visual Studio 2026", "Rider", "DBeaver", "Swagger", "Postman", "Figma", "Figma Make", "Google Stitch", "Canva", "Notion", "Mermaid", "Slack", "LINE/LIFF", "LINE Flex Message Simulator", "Android"] },
-  { "id": "ai", "label": "AI", "items": ["Copilot", "ChatGPT", "Gemini", "Claude Code"] }
+  {
+    "id": "languages",
+    "label": "Languages & Core",
+    "items": [
+      { "name": "HTML/HTML5", "description": "Semantic markup for the web", "icon": "html5" },
+      { "name": "CSS/CSS3", "description": "Styling and layout for interfaces", "icon": "css3" },
+      { "name": "JavaScript", "description": "Programming language for the web", "icon": "javascript" },
+      { "name": "TypeScript", "description": "Typed JavaScript for scalable applications", "icon": "typescript" },
+      { "name": "Python", "description": "Programming language for applications and data work", "icon": "python" },
+      { "name": "C", "description": "General-purpose systems programming language", "icon": "c" },
+      { "name": "C++", "description": "Systems and general-purpose programming language", "icon": "cplusplus" },
+      { "name": "Java", "description": "Object-oriented programming language", "icon": "java" },
+      { "name": ".NET / C#", "description": "Application platform and programming language", "icon": "dotnetcore" }
+    ]
+  },
+  {
+    "id": "frontend",
+    "label": "Frontend",
+    "items": [
+      { "name": "React", "description": "Library for building user interfaces", "icon": "react" },
+      { "name": "Next.js", "description": "React framework for full-stack web applications", "icon": "nextjs" },
+      { "name": "Vue.js", "description": "Progressive framework for user interfaces", "icon": "vuejs" },
+      { "name": "Nuxt.js", "description": "Vue framework for production web applications", "icon": "nuxtjs" },
+      { "name": "WaveSurfer.js", "description": "Audio waveform visualization library", "icon": "wavesurfer" },
+      { "name": "Tailwind CSS", "description": "Utility-first CSS framework", "icon": "tailwindcss" },
+      { "name": "Bootstrap", "description": "Frontend toolkit for responsive interfaces", "icon": "bootstrap" },
+      { "name": "Bulma", "description": "CSS framework built around Flexbox", "icon": "bulma" },
+      { "name": "Pinia", "description": "State management for Vue applications", "icon": "pinia" },
+      { "name": "Axios", "description": "Promise-based HTTP client", "icon": "axios" },
+      { "name": "@nuxtjs/seo", "description": "SEO toolkit for Nuxt applications", "icon": "nuxtjs" },
+      { "name": "@nuxt/image", "description": "Responsive image optimization for Nuxt", "icon": "nuxtjs" }
+    ]
+  },
+  {
+    "id": "backend",
+    "label": "Backend",
+    "items": [
+      { "name": "Node.js", "description": "JavaScript runtime for server-side applications", "icon": "nodejs" },
+      { "name": "Express", "description": "Web framework for Node.js", "icon": "express" },
+      { "name": "FastEndpoints", "description": "Endpoint-focused framework for ASP.NET Core", "icon": "dotnetcore" },
+      { "name": "FastEndpoints.Security", "description": "Authentication and authorization extensions", "icon": "dotnetcore" },
+      { "name": "JWT", "description": "Compact token format for transmitting claims", "icon": "jwt" },
+      { "name": "FluentValidation", "description": "Validation library for .NET applications", "icon": "dotnetcore" },
+      { "name": "EF Core", "description": "Object-relational mapper for .NET", "icon": "entityframeworkcore" },
+      { "name": "Npgsql", "description": ".NET data provider for PostgreSQL", "icon": "postgresql" }
+    ]
+  },
+  {
+    "id": "data",
+    "label": "Data Science / AI / ML",
+    "items": [
+      { "name": "NumPy", "description": "Numerical computing for Python", "icon": "numpy" },
+      { "name": "Pandas", "description": "Data analysis and manipulation for Python", "icon": "pandas" },
+      { "name": "Scikit-learn", "description": "Machine learning tools for Python", "icon": "scikitlearn" },
+      { "name": "PyTorch", "description": "Framework for machine learning and deep learning", "icon": "pytorch" },
+      { "name": "TensorFlow", "description": "Platform for machine learning", "icon": "tensorflow" }
+    ]
+  },
+  {
+    "id": "database",
+    "label": "Database & Storage",
+    "items": [
+      { "name": "PostgreSQL", "description": "Open-source relational database", "icon": "postgresql" },
+      { "name": "MySQL", "description": "Relational database management system", "icon": "mysql" },
+      { "name": "SQLite", "description": "Embedded relational database", "icon": "sqlite" },
+      { "name": "MongoDB", "description": "Document-oriented database", "icon": "mongodb" },
+      { "name": "Neon", "description": "Managed serverless PostgreSQL platform", "icon": "neon" },
+      { "name": "Cloudflare R2", "description": "Object storage for files and media", "icon": "cloudflare" }
+    ]
+  },
+  {
+    "id": "devops",
+    "label": "DevOps & Infrastructure",
+    "items": [
+      { "name": "Git", "description": "Distributed version control system", "icon": "git" },
+      { "name": "Vercel", "description": "Platform for deploying web applications", "icon": "vercel" },
+      { "name": "Render", "description": "Cloud platform for deploying services", "icon": "render" },
+      { "name": "UptimeRobot", "description": "Website and service uptime monitoring", "icon": "uptimerobot" },
+      { "name": "Firebase", "description": "Google platform for application services", "icon": "firebase" },
+      { "name": "Google Cloud", "description": "Cloud infrastructure and managed services", "icon": "googlecloud" },
+      { "name": "Docker", "description": "Containerization and application packaging", "icon": "docker" }
+    ]
+  },
+  {
+    "id": "tools",
+    "label": "Development & Other Tools",
+    "items": [
+      { "name": "VS Code", "description": "Code editor", "icon": "vscode" },
+      { "name": "Visual Studio 2026", "description": "Integrated development environment", "icon": "visualstudio" },
+      { "name": "Rider", "description": ".NET and cross-platform IDE", "icon": "rider" },
+      { "name": "DBeaver", "description": "Universal database management tool", "icon": "dbeaver" },
+      { "name": "Swagger", "description": "API description and documentation tooling", "icon": "swagger" },
+      { "name": "Postman", "description": "API development and testing platform", "icon": "postman" },
+      { "name": "Figma", "description": "Interface design and collaboration tool", "icon": "figma" },
+      { "name": "Figma Make", "description": "AI-assisted prototyping in Figma", "icon": "figma" },
+      { "name": "Google Stitch", "description": "AI-assisted interface design tool", "icon": "google" },
+      { "name": "Canva", "description": "Visual communication and design tool", "icon": "canva" },
+      { "name": "Notion", "description": "Workspace for notes and project planning", "icon": "notion" },
+      { "name": "Mermaid", "description": "Text-based diagramming tool", "icon": "mermaid" },
+      { "name": "Slack", "description": "Team communication platform", "icon": "slack" },
+      { "name": "LINE/LIFF", "description": "LINE Front-end Framework for web apps", "icon": "line" },
+      { "name": "LINE Flex Message Simulator", "description": "Tool for previewing LINE Flex Messages", "icon": "line" },
+      { "name": "Android", "description": "Mobile application platform", "icon": "android" }
+    ]
+  },
+  {
+    "id": "ai",
+    "label": "AI",
+    "items": [
+      { "name": "Copilot", "description": "AI coding assistant", "icon": "githubcopilot" },
+      { "name": "ChatGPT", "description": "Conversational AI assistant", "icon": "chatgpt" },
+      { "name": "Gemini", "description": "Google AI model and assistant", "icon": "gemini" },
+      { "name": "Claude Code", "description": "AI coding agent by Anthropic", "icon": "claude" }
+    ]
+  }
 ]

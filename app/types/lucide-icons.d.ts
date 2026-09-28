@@ -70,6 +70,12 @@ declare module '@lucide/vue/dist/esm/icons/menu.mjs' {
   export default icon
 }
 
+declare module '@lucide/vue/dist/esm/icons/phone.mjs' {
+  import type { Component } from 'vue'
+  const icon: Component
+  export default icon
+}
+
 declare module '@lucide/vue/dist/esm/icons/search.mjs' {
   import type { Component } from 'vue'
   const icon: Component

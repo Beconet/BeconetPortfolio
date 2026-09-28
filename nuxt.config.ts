@@ -3,11 +3,11 @@ import { env } from 'node:process'
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
-  devtools: { enabled: true },
+  devtools: { enabled: false },
   app: {
     baseURL: env.NUXT_APP_BASE_URL || '/',
     head: {
-      title: 'Supacheep Poonsawat | Fullstack Developer',
+      title: 'Beconet - Portfolio',
       htmlAttrs: { lang: 'en' },
       meta: [
         { name: 'description', content: 'Supacheep Poonsawat is a fullstack developer building considered web products from interface to infrastructure.' },
@@ -23,6 +23,6 @@ export default defineNuxtConfig({
       ]
     }
   },
-  css: ['~/assets/css/main.css'],
+  css: ['~/assets/css/portfolio.css'],
   nitro: { preset: 'static' }
 })

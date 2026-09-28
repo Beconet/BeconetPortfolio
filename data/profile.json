@@ -2,9 +2,30 @@
   "name": "Supacheep Poonsawat",
   "nickname": "Keng",
   "role": "Fullstack Developer",
-  "study": "Final-year Computer Science student",
-  "email": "",
-  "github": "",
+  "study": "",
+  "email": "psupacheep@gmail.com",
+  "github": "https://github.com/Beconet",
+  "phone": "0625282058",
   "linkedin": "",
-  "resume": ""
+  "resume": "",
+  "experience": [
+    {
+      "period": "2026/01 - 2026/05",
+      "company": "codehard.co.th",
+      "role": "Intern Web Developer",
+      "highlights": [
+        "Resolved bugs, performed testing, and optimized web services to improve system reliability.",
+        "Developed LINE Mini App solutions to streamline user interactions and operational workflows.",
+        "Collaborated closely with UX/UI designers, System Analysts, and senior engineers to deliver high-quality, user-centric products."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "period": "2022 - 2026",
+      "degree": "Computer Science",
+      "school": "Bangkok University",
+      "schoolUnit": "School of IT & Innovation"
+    }
+  ]
 }
