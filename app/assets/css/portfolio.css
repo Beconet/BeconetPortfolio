@@ -296,9 +296,9 @@ button:focus-visible, a:focus-visible, input:focus-visible { outline: 2px solid 
 .contact-main { display: grid; grid-template-columns: 1fr 0.4fr; align-items: end; gap: 8%; }
 .contact-title { margin: 0; font-family: var(--display); font-size: clamp(55px, 8vw, 102px); font-weight: 500; line-height: 0.98; }
 .contact-title em { color: var(--lime); font-style: italic; }
-.contact-aside { max-width: 300px; padding-bottom: 7px; }
-.contact-aside > p { margin: 0 0 22px; color: rgba(255, 255, 255, 0.78); font-size: 14px; line-height: 1.8; }
-.contact-email-link { display: inline-flex; align-items: center; gap: 10px; color: white; font-size: 14px; text-decoration-color: rgba(255, 255, 255, 0.55); text-underline-offset: 6px; }
+.contact-aside { display: flex; max-width: 300px; flex-direction: column; align-items: flex-start; gap: 12px; padding-bottom: 7px; }
+.contact-aside > p { margin: 0 0 10px; color: rgba(255, 255, 255, 0.78); font-size: 14px; line-height: 1.8; }
+.contact-method-link { display: inline-flex; align-items: center; gap: 10px; color: white; font-size: 14px; text-decoration-color: rgba(255, 255, 255, 0.55); text-underline-offset: 6px; }
 .contact-pending { color: rgba(255, 255, 255, 0.75); font-size: 11px; }
 .contact-links { display: flex; flex-wrap: wrap; gap: 28px; margin-top: 67px; padding-top: 22px; border-top: 1px solid rgba(255, 255, 255, 0.28); }
 .contact-links > a { display: inline-flex; align-items: center; gap: 7px; color: white; font-size: 14px; text-decoration: none; }

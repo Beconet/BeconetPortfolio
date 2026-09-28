@@ -5,9 +5,7 @@ import ArrowRight from '@lucide/vue/dist/esm/icons/arrow-right.mjs'
 import ArrowUpRight from '@lucide/vue/dist/esm/icons/arrow-up-right.mjs'
 import Code from '@lucide/vue/dist/esm/icons/code.mjs'
 import FileText from '@lucide/vue/dist/esm/icons/file-text.mjs'
-import Mail from '@lucide/vue/dist/esm/icons/mail.mjs'
 import Menu from '@lucide/vue/dist/esm/icons/menu.mjs'
-import Phone from '@lucide/vue/dist/esm/icons/phone.mjs'
 import Search from '@lucide/vue/dist/esm/icons/search.mjs'
 import Utensils from '@lucide/vue/dist/esm/icons/utensils.mjs'
 import X from '@lucide/vue/dist/esm/icons/x.mjs'
@@ -73,10 +71,8 @@ const filteredSkillGroups = computed(() => {
 
 const contactLinks = computed<ContactLink[]>(() => {
   const links: (ContactLink | null)[] = [
-    profile.email ? { label: 'Email', value: profile.email, href: `mailto:${profile.email}`, icon: Mail, external: false } : null,
     profile.github ? { label: 'GitHub', value: profile.github.replace(/^https?:\/\//, ''), href: profile.github, icon: Code, external: true } : null,
     profile.linkedin ? { label: 'LinkedIn', value: profile.linkedin.replace(/^https?:\/\//, ''), href: profile.linkedin, icon: ArrowUpRight, external: true } : null,
-    profile.phone ? { label: 'Phone', value: profile.phone, href: `tel:${profile.phone}`, icon: Phone, external: false } : null,
     profile.resume ? { label: 'Resume', value: 'View resume', href: profile.resume, icon: FileText, external: true } : null
   ]
   return links.filter((link): link is ContactLink => link !== null)
@@ -408,7 +404,8 @@ onBeforeUnmount(() => {
             <h2 id="contact-title" class="contact-title">Let's make something<br><em>useful together.</em></h2>
             <div class="contact-aside">
               <p>Contact me for collaborations, inquiries,<br> or just to say hello. 😄</p>
-              <a v-if="profile.email" class="contact-email-link" :href="`mailto:${profile.email}`">{{ profile.email }} <ArrowUpRight :size="17" /></a>
+              <a v-if="profile.email" class="contact-method-link" :href="`https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(profile.email)}`" target="_blank" rel="noreferrer">{{ profile.email }} <ArrowUpRight :size="17" /></a>
+              <a v-if="profile.phone" class="contact-method-link" :href="`tel:${profile.phone}`">{{ profile.phone }} <ArrowUpRight :size="17" /></a>
               <div v-else class="contact-pending">Contact details will be added here.</div>
             </div>
           </div>
